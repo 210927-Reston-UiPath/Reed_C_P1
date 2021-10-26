@@ -17,12 +17,17 @@ function Buy(Name) {
     itemQuantity.innerHTML = document.querySelector(elementID + ' td .quantity').value;
 
     let subTotal = newItem.insertCell(3);
-    subTotal.innerHTML = document.querySelector(elementID + ' .price').innerHTML.replace('$','') * document.querySelector(elementID + ' td .quantity').value;
-
+    subTotal.innerHTML = '$' + (itemPrice.innerHTML.replace('$','') * itemQuantity.innerHTML);
     document.querySelector(elementID + ' td .quantity').value = '';
+    
+    let total = 0;
+    document.querySelectorAll('#Cart tbody tr').forEach(row =>{
+        total = total + parseInt(row.cells[3].innerHTML.replace('$',''));
+    });
+    document.querySelector('#total').innerHTML = total
 }
 function checkout(){
-    document.querySelectorAll('#cart tbody tr').forEach(row => row.remove());
+    document.querySelectorAll('#Cart tbody tr').forEach(row => row.remove());
     alert("thanks for buying");
 }
 

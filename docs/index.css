@@ -5,3 +5,6 @@ tr:hover {
     background-color: rgb(231, 217, 195);
      
 }
+#total{
+    text-align: right;
+}
