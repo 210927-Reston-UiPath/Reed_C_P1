@@ -179,7 +179,7 @@
               </sap:WorkflowViewStateService.ViewState>
               <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into 'INPUT  bfirst_name'" EmptyField="False" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="True" Text="[Fname]">
                 <ui:TypeInto.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="91b5d8c7-aecc-4cab-bd1f-5c1690b9d966" InformativeScreenshot="a47e2b63d355431ba6abaca055f3a838" Selector="&lt;webctrl id='bfirst_name' tag='INPUT' type='text' /&gt;" WaitForReady="COMPLETE">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="91b5d8c7-aecc-4cab-bd1f-5c1690b9d966" InformativeScreenshot="6eb68ad912e83fed3c01ddf05764f258" Selector="&lt;webctrl id='bfirst_name' tag='INPUT' type='text' /&gt;" WaitForReady="COMPLETE">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
